@@ -1,0 +1,56 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type
+1,"Search Items","E-Shop Main Functions",1,"Tomáš Prokop",3000,Passed,"2021-03-18 02:38:36","1. Type name of item to the search bar
+2. Enter key and search button should work as confirmation of searching
+","1. 
+2. 
+","1. Some results are already showing in autocomplete box
+2. Page of items should load
+","1. Passed
+2. Passed
+",,High,Blocker,"Not automated",Usability
+2,"Browse Items","E-Shop Main Functions",1,"Tomáš Prokop",0,Passed,"2021-03-18 02:38:39","1. Click on section of items
+2. Check items if there are 3 columns of items and 9 rows on page
+3. If there are more than 27 items under category, click on second page at the bottom of the list of items
+4. Check if there aren’t problem with wrong assignment to category
+","1. 
+2. 
+3. 
+4. 
+","1. Should load page with items of that section
+2. 
+3. Should load next page of items
+4. Catagory should contain only items that belongs to that specific category
+",,,High,Blocker,"Not automated",Functional
+3,"View Item","E-Shop Main Functions",1,"Tomáš Prokop",0,Passed,"2021-03-18 02:38:40","1. Browse item and click on some item
+2. Search item and click on one
+3. Open shopping cart and click on item in it
+","1. 
+2. 
+3. 
+","1. Should load page of item
+2. Should load page of item
+3. Should load page of item
+",,,High,Blocker,"Not automated",Functional
+4,"Add Item to Shopping Cart","E-Shop Main Functions",1,"Tomáš Prokop",0,Passed,"2021-03-18 02:38:42","1. Take a look at list of items in some category and click on button “Add to the cart” without viewing the item
+2. View some item and click on “Add to the cart” button
+","1. 
+2. 
+","1. Item should be added to the shopping cart
+2. Item should be added to the shopping cart
+",,,High,Blocker,"Not automated",Functional
+5,"View/Update Shopping Cart","E-Shop Main Functions",1,"Tomáš Prokop",0,Passed,"2021-03-18 02:38:44","1. View shopping cart by clicking on icon
+2. Change quantity
+","1. 
+2. 
+","1. Should load shopping cart page
+2. 
+",,,High,Blocker,"Not automated",Functional
+6,Checkout,"E-Shop Main Functions",1,"Tomáš Prokop",0,Failed,"2021-03-18 02:39:37","1. In shopping cart, click on checkout button
+","1. 
+","1. Should load page with personal information about delivery address, payment method etc.
+","1. Failed
+","Page didn't load, just white blank page",High,Blocker,"Not automated",Functional
+7,"Remove Item from Shopping Cart","E-Shop Main Functions",1,"Tomáš Prokop",3000,Passed,"2021-03-18 02:39:44","1. In shopping cart, click on remove button next to an item
+","1. 
+","1. Item should be removed from the shopping cart
+",,,High,Blocker,"Not automated",Functional
